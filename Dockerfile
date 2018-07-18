@@ -11,3 +11,4 @@ RUN curl -O http://download.tensorflow.org/models/image/imagenet/inception-v3-20
     tar xzf inception-v3-2016-03-01.tar.gz && \
     python /tensorflow-serving/tensorflow_serving/example/inception_saved_model.py --checkpoint_dir=inception-v3 --output_dir=/serving/inception-export
     
+EXPOSE 9090
