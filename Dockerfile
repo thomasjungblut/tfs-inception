@@ -1,4 +1,4 @@
-FROM tensorflow/serving:1.8.0-devel-gpu
+FROM tensorflow/serving:1.8.0-devel
 
 RUN pip install tensorflow==1.8.0
 
